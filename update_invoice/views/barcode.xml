@@ -1,0 +1,46 @@
+<odoo>
+    <data>
+        <template id="pur_purchase_order_inherit" inherit_id="account.report_invoice_document">
+
+              <xpath expr="//th[@name='th_description']" position="after">
+               <th name="th_barcode"><span>Reference</span></th>
+               <th name="th_par"><span>Parcours</span></th>
+               <th name="th_class"><span>Class</span></th>
+               <th name="th_design"><span>Designation</span></th>
+               <th name="th_nde"><span>N'De Billet</span></th>
+               <th name="th_com"><span>Comission</span></th>
+               <th name="th_puht"><span>P.U.HT</span></th>
+               <th name="th_puttc"><span>P.U.TTc</span></th>
+            </xpath>
+
+
+            <xpath expr="//td[@name='account_invoice_line_name']" position="after">
+
+                <td id="barcode">
+                         <span t-field="line.reference_arti"/>
+                </td>
+                <td id="ref">
+                         <span t-field="line.par_cours"/>
+                </td>
+                <td id="cllss">
+                         <span t-field="line.class_a"/>
+                </td>
+                <td id="design">
+                         <span t-field="line.design"/>
+                </td>
+                <td id="de_billet">
+                         <span t-field="line.de_billet"/>
+                </td>
+                <td id="com">
+                         <span t-field="line.com"/>
+                </td>
+                <td id="puht">
+                         <span t-field="line.puht"/>
+                </td>
+                <td id="puttc">
+                         <span t-field="line.puttc"/>
+                </td>
+            </xpath>
+        </template>
+    </data>
+</odoo>
