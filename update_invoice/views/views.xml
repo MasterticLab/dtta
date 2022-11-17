@@ -27,7 +27,7 @@
             <field name="puttc" invisible="1"/>
             <field name="cost" invisible="1"/>
         </xpath>
-          <xpath expr="//field[@name='amount_untaxed']" position="after">
+          <xpath expr="//field[@name='amount_total']" position="before">
               <field name="cost"/>
           </xpath>
           <xpath expr="//field[@name='amount_total']" position="after">
