@@ -14,7 +14,7 @@
             <field name="com"/>
             <field name="puht"/>
             <field name="puttc"/>
-            <field name="cost" invisible="1"/>
+            <field name="cost" invisible="0"/>
         </xpath>
           <xpath expr="//field[@name='line_ids']/tree/field[@name='account_id']" position="after">
             <field name="reference_arti" invisible="1"/>
