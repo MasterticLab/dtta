@@ -9,11 +9,8 @@
             <field name="reference_arti"/>
             <field name="par_cours"/>
             <field name="class_a"/>
-            <field name="design"/>
             <field name="de_billet"/>
             <field name="com"/>
-            <field name="puht"/>
-            <field name="puttc"/>
             <field name="cost" invisible="0"/>
         </xpath>
           <xpath expr="//field[@name='line_ids']/tree/field[@name='account_id']" position="after">
