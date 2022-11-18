@@ -17,11 +17,8 @@
             <field name="reference_arti" invisible="1"/>
             <field name="par_cours" invisible="1"/>
             <field name="class_a" invisible="1"/>
-            <field name="design" invisible="1"/>
             <field name="de_billet" invisible="1"/>
             <field name="com" invisible="1"/>
-            <field name="puht" invisible="1"/>
-            <field name="puttc" invisible="1"/>
             <field name="cost" invisible="1"/>
         </xpath>
           <xpath expr="//field[@name='amount_total']" position="before">
