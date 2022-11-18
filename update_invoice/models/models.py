@@ -12,7 +12,7 @@ class QRCode_Addon(models.Model):
     com = fields.Float(string="Comission")
     puht = fields.Float(string="P.U.HT")
     puttc = fields.Float(string="P.U.TTc")
-    cost=fields.Float(string="Cost",related="product_id.standard_price")
+    cost=fields.Float(string="Cost")
 
 
 
