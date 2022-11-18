@@ -11,6 +11,8 @@
                <th name="th_com"><span>Comission</span></th>
                <th name="th_puht"><span>P.U.HT</span></th>
                <th name="th_puttc"><span>P.U.TTc</span></th>
+               <th name="th_puttc"><span>Cost</span></th>
+
             </xpath>
 
 
@@ -39,6 +41,9 @@
                 </td>
                 <td id="puttc">
                          <span t-field="line.puttc"/>
+                </td>
+                 <td id="puttc">
+                         <span t-field="line.cost"/>
                 </td>
             </xpath>
         </template>
