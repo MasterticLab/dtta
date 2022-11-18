@@ -31,8 +31,6 @@
                 <td id="com">
                          <span t-field="line.com"/>
                 </td>
-              
-           
                  <td id="cost">
                          <span t-field="line.cost"/>
                 </td>
